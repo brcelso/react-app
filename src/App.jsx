@@ -1,3 +1,4 @@
+import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
 
 function App() {
@@ -8,15 +9,21 @@ function App() {
       seatNumbers: [1, 4, 7], 
   };
   return  (
-  <div className="App">
-    <Hello person={person} />
+    <div className="App">
+    <Fruits />
     </div>
+  
   );
 }
 
 export default App;
 
-  /*return (
+//person object 
+//<div className="App">
+//<Hello person={person} />
+//</div>  
+
+/*return (
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
