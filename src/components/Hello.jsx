@@ -1,22 +1,17 @@
-function Hello(props) {
+function Hello({person}) {
     return (
     <div>    
-    <h1>Hello Ueld!</h1>
-    <h1>=D</h1>
+    <h1>
+        {person.message} {person.emoji} {person.name} {person.seatNumbers}
+    </h1>
     </div>
     );
 }
 
 export default Hello;
 
-/*#Components + Props
-entende-se que o a variavel e armazenada
-dentro do componente, porem a 
-informacao esta sendo passada pelo APP
-manualmente, quem define o que vai ser 
-passado e o APP, mas pode ser outra 
-abordagem que vamos entender no futuro.
 
+/*Components + Props
 add props direto na funcao
 function Hello {message, emoji, name}
 desestruturar props
