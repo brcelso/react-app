@@ -6,7 +6,7 @@ function App() {
     message: "go!", 
       emoji: "🐎",  
       name:"celso", 
-      seatNumbers: [1, 4, 7], 
+      seatNumbers: [7, 4 , 1], 
   };
   return  (
     <div className="App">
